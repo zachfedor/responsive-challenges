@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/**** General Styles ****/
+body {
+  background: #eee;
+  color: #333;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+main {
+  background: #fff;
+}
+
+aside,
+article {
+  padding: 2rem;
+}
+
+aside {
+  background: #333;
+  color: #eee;
+}
+
+/**
+ * EXERCISE 1:
+ * Try to make a right sidebar layout only when the screen
+ * is 750px or larger. It should be below the content on
+ * smaller screen sizes.
+ */
+/* @media <condition?> {} */
+
+
+/**
+ * EXERCISE 2:
+ * When the screen gets larger than 900px, try to turn the
+ * unordered list into two columns of list items.
+ */
+/* @media <condition?> {} */
+
+
+/**
+ * EXERCISE 3:
+ * Try to constrain the width of the main.container element
+ * to 1000px wide using the max-width property. Do you need
+ * a media query for this?
+ */
+/* ??? */
+
+
+/**
+ * EXERCISE 4:
+ * When the screen gets smaller than 500px, remove the
+ * padding from the body element so the content becomes full
+ * width.
+ */
+/* @media <condition?> {} */
+
+
+/**
+ * EXERCISE 5:
+ * Let's get useless. When the screen is between 800px and
+ * 810px, rotate the contents of the entire page upside down.
+ */
+/* @media <condition?> {} */
+
+
+/**
+ * EXERCISE 6:
+ * Now let's kill the printer. When the device is printing,
+ * turn all the text content yellow and all the backgrounds
+ * blue. Mwahahaha!
+ */
+/* @media <condition?> {} */
+
